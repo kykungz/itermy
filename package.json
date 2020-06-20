@@ -21,7 +21,8 @@
   },
   "scripts": {
     "dev": "tsc --watch --preserveWatchOutput",
-    "build": "tsc"
+    "build": "tsc",
+    "deploy": "np"
   },
   "dependencies": {
     "execa": "^4.0.2",
