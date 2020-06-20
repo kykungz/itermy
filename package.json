@@ -20,7 +20,8 @@
     "url": "https://github.com/kykungz/itermy/issues"
   },
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   },
   "scripts": {
     "dev": "tsc --watch --preserveWatchOutput",
