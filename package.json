@@ -19,6 +19,9 @@
   "bugs": {
     "url": "https://github.com/kykungz/itermy/issues"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "scripts": {
     "dev": "tsc --watch --preserveWatchOutput",
     "build": "tsc",
