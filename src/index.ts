@@ -3,18 +3,16 @@ import shellEnv from 'shell-env'
 
 const { ITERM_PROFILE } = shellEnv.sync()
 
-export type Pane =
-  | { commands: string | string[] }
-  | { commands: string | string[] }[]
+type Pane = { commands: string | string[] } | { commands: string | string[] }[]
 
-export type InstanceOptions = {}
+type InstanceOptions = {}
 
-export type RunCommandsParams = {
+type RunCommandsParams = {
   paneId: string
   commands: string | string[]
 }
 
-export type SplitParams = {
+type SplitParams = {
   sourceId: string
   destinationId: string
 }
@@ -130,4 +128,4 @@ class iTermy {
   }
 }
 
-export default () => new iTermy()
+export = () => new iTermy()
