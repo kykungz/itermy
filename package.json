@@ -22,7 +22,7 @@
   "scripts": {
     "dev": "tsc --watch --preserveWatchOutput",
     "build": "tsc",
-    "deploy": "np"
+    "release": "np"
   },
   "dependencies": {
     "execa": "^4.0.2",
